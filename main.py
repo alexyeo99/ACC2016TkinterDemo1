@@ -1,3 +1,10 @@
+"""
+ACC Python GUI Demo: Using Tkinter
+
+Python GUI programming using tkinter demo program. This code will run on windows,linux and mac (Needs python to run unless compiled) *You can copy paste codes from here into your appications or use this as reference.
+See Guthub page for more info.
+"""
+
 # !/usr/bin/python3
 from tkinter import *
 import tkinter.scrolledtext as ScrolledText
@@ -9,7 +16,6 @@ def helloCallBack():
     label['state']="disabled"
 
 # >Atbash Cipher Encoding / Decoding Function
-# Alex Yeo, G2017
 def atbashCipher(atbashInput):
     atbashOutput = ""
     for x in atbashInput:
